@@ -27,6 +27,14 @@
         <entry key="..\:/THA/Data (D)/PADC/HelloMovieApp/app/src/main/res/layout/activity_movie_search.xml" value="0.19709277469003847" />
         <entry key="..\:/THA/Data (D)/PADC/HelloMovieApp/app/src/main/res/layout/view_item_movie_list.xml" value="0.20863616930312098" />
         <entry key="..\:/THA/Data (D)/PADC/HelloMovieApp/app/src/main/res/menu/menu_discover.xml" value="0.20863616930312098" />
+        <entry key="..\:/THA/Data (D)/PADC/mvp/HelloMovieApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/THA/Data (D)/PADC/mvp/HelloMovieApp/app/src/main/res/layout/activity_movie_detail.xml" value="0.1" />
+        <entry key="..\:/THA/Data (D)/PADC/mvp/HelloMovieApp/app/src/main/res/layout/activity_movie_search.xml" value="0.1" />
+        <entry key="..\:/THA/Data (D)/PADC/mvp/HelloMovieApp/app/src/main/res/layout/view_holder_best_actor.xml" value="0.1" />
+        <entry key="..\:/THA/Data (D)/PADC/mvp/HelloMovieApp/app/src/main/res/layout/view_item_banner.xml" value="0.1" />
+        <entry key="..\:/THA/Data (D)/PADC/mvp/HelloMovieApp/app/src/main/res/layout/view_item_movie_list.xml" value="0.1" />
+        <entry key="..\:/THA/Data (D)/PADC/mvp/HelloMovieApp/app/src/main/res/layout/view_pod_best_actor.xml" value="0.1" />
+        <entry key="..\:/THA/Data (D)/PADC/mvp/HelloMovieApp/app/src/main/res/layout/view_pod_movie_list.xml" value="0.1" />
       </map>
     </option>
   </component>
