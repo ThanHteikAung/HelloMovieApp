@@ -207,7 +207,7 @@ override fun getMoviesByGenreIdObservable(genreId: String): Observable<List<Movi
         .subscribeOn(Schedulers.io())
 }
 
-override fun getMovieDetailObservable(movieId: Int): Observable<MovieVO?> {
+override fun getMovieDetailObservable(movieId: Int): Observable<MovieVO>? {
      mTheMovieApi.getMovieDetail(movieId = movieId.toString())
         .subscribeOn(Schedulers.io())
          .observeOn(AndroidSchedulers.mainThread())
@@ -216,7 +216,7 @@ override fun getMovieDetailObservable(movieId: Int): Observable<MovieVO?> {
              it.type = movieFromDatabaseToSync?.type
              mMovieDatabase?.movieDao()?.insertSingleMovie(it)
          }
-    return mMovieDatabase?.movieDao()?.getMoviesByIdFlowable(movieId = movieId)?.toObservable()!!
+    return mMovieDatabase?.movieDao()?.getMoviesByIdFlowable(movieId = movieId)?.toObservable()
 }
 
 override fun getCreditByMovieObservable(movieId: Int): Observable<Pair<List<ActorVO>, List<ActorVO>>> {
