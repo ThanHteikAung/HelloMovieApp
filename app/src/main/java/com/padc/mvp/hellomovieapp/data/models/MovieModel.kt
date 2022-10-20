@@ -56,7 +56,7 @@ interface MovieModel {
     fun getGenreListObservable(): Observable<List<GenreVO>>?
     fun popularActorsObservable(): Observable<List<ActorVO>>?
     fun getMoviesByGenreIdObservable(genreId: String): Observable<List<MovieVO>>?
-    /*fun getMovieDetailObservable(movieId: Int): Observable<MovieVO?>*/
+    fun getMovieDetailObservable(movieId: Int): Observable<MovieVO?>
     fun getCreditByMovieObservable(movieId: Int): Observable<Pair<List<ActorVO>, List<ActorVO>>>
 
 
